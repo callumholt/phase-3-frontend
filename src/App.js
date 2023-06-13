@@ -1,21 +1,3 @@
-// import "./App.css";
-// import InputForm from "./todoForm.js";
-// import TodoList from "./todosByUser";
-// import React from "react";
-// import TodoUpdateDelete from "./todoUpdateDelete";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <InputForm />
-//         <TodoList />
-//         <TodoUpdateDelete />
-//       </header>
-//     </div>
-//   );
-// }
-
 // export default App;
 import React from "react";
 import InputForm from "./todoForm";

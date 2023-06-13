@@ -81,22 +81,3 @@ function InputForm() {
 }
 
 export default InputForm;
-
-// to send to local server use this post request:
-
-// const response = await fetch("http://localhost:4567/todo", {
-//       method: "POST",
-//       headers: { "Content-Type": "application/json" },
-//       body: JSON.stringify({
-//         todo: todo,
-//         category: category,
-//         user: user,
-//       }),
-//     });
-//     if (response.ok) {
-//       console.log("Data successfully sent to database!");
-//       alert("Data successfully sent to database!");
-//     } else {
-//       console.error("Error sending data to database:", response.status);
-//     }
-//   };
